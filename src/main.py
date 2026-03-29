@@ -102,9 +102,9 @@ def main():
 
     arquivo_excel = gerar_excel(caminho, estrutura)
 
-    print(f"\n✅ Projeto '{nome_projeto}' criado com sucesso!")
-    print(f"📁 Dados salvos em: {caminho}")
-    print(f"📊 Excel gerado em: {arquivo_excel}")
+    print(f"\nProjeto '{nome_projeto}' criado com sucesso!")
+    print(f"Dados salvos em: {caminho}")
+    print(f"Excel gerado em: {arquivo_excel}")
 
 
 if __name__ == "__main__":
