@@ -12,7 +12,7 @@ Alguns editais de licitação em TI costumam ter inúmeras linhas de requisitos,
 
 ## 💡 Solução
 A aplicação permite:
-- Copiar/colar os requisitos de edital manualmente
+- Copiar/colar os requisitos de edital manualmente (nesta primeira etapa não tem uma integração com API ou automatização da leitura do PDF, logo, o indicado é editar os requisitos em .txt, no bloco de notas, e depois colar no sistema)
 - Automatizar a estrutura de comprovação dos requisitos
 - Gerar um checklist organizado
 - Exportar os dados para Excel
