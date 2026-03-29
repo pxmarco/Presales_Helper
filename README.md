@@ -1,19 +1,19 @@
 # Presales Helper
 
 ## 📌 Descrição
-O Presales Helper é uma ferramenta em linha de comando (CLI) que auxilia profissionais de pré-vendas e licitação na análise de editais técnicos. A aplicação permite transformar requisitos de um edital em um checklist estruturado, facilitando a validação de conformidade técnica.
+O Presales Helper é uma ferramenta em linha de comando (CLI) que auxilia profissionais de pré-vendas e licitação na análise de editais técnicos. A aplicação permite transformar requisitos de um edital em um checklist estruturado, agilizando a criação da estrutura do documento utilizado para validação e confirmação técnica.
 
 ---
 
 ## ❗ Problema
-A análise de editais técnicos é um processo manual, demorado e suscetível a erros, podendo levar à perda de prazos ou desclassificação em licitações.
+Alguns editais de licitação em TI costumam ter inúmeras linhas de requisitos, tornando difícil a vida dos profissionais que trabalham com a análise dos requisitos técnicos, sendo um processo manual, demorado e suscetível a erros, podendo levar à perda de prazos ou desclassificação em licitações.
 
 ---
 
 ## 💡 Solução
 A aplicação permite:
-- Inserir requisitos de edital manualmente
-- Estruturar automaticamente os requisitos
+- Copiar/colar os requisitos de edital manualmente
+- Automatizar a estrutura de comprovação dos requisitos
 - Gerar um checklist organizado
 - Exportar os dados para Excel
 
@@ -47,8 +47,9 @@ A aplicação permite:
 ## 📦 Instalação
 
 ```bash
-git clone https://github.com/SEU_USUARIO/Presales_Helper.git
+git clone https://github.com/pxmarco/Presales_Helper.git
 cd Presales_Helper
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
