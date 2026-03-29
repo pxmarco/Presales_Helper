@@ -75,7 +75,7 @@ python src/main.py
 
 O sistema irá gerar automaticamente:
 
-data/nome_do_projeto/
+data/nome_do_projeto/ <br>
 ├── edital.txt          → texto original <br>
 ├── requisitos.json     → estrutura dos requisitos <br>
 ├── checklist.xlsx      → checklist pronto <br>
