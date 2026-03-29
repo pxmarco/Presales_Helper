@@ -53,3 +53,58 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+
+---
+
+## ▶️ Executar o sistema
+
+```bash
+python src/main.py
+```
+
+---
+
+## ✏️ Como usar na prática
+- Digite o nome do projeto
+- Cole os requisitos do edital (exemplo abaixo)
+- Pressione ENTER em uma linha vazia para finalizar
+
+---
+
+## 📊 Resultado
+
+O sistema irá gerar automaticamente:
+
+data/nome_do_projeto/
+├── edital.txt          → texto original
+├── requisitos.json     → estrutura dos requisitos
+├── checklist.xlsx      → checklist pronto
+└── comprovantes/       → pasta para documentos
+
+---
+
+## 🧪 Testes automatizados e Lint
+
+Para validar o funcionamento do sistema:
+
+```bash
+PYTHONPATH=. pytest
+```
+
+Para verificar padrões e possíveis problemas no código:
+
+```bash
+ruff check .
+```
+
+---
+
+🔄 Integração Contínua (CI)
+
+Assim que for preenchendo os requisitos, escreva:
+
+```bash
+git add .
+git commit -m "Atualizações"
+git push
+```
