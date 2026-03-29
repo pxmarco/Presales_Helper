@@ -76,10 +76,10 @@ python src/main.py
 O sistema irá gerar automaticamente:
 
 data/nome_do_projeto/
-├── edital.txt          → texto original
-├── requisitos.json     → estrutura dos requisitos
-├── checklist.xlsx      → checklist pronto
-└── comprovantes/       → pasta para documentos
+├── edital.txt          → texto original <br>
+├── requisitos.json     → estrutura dos requisitos <br>
+├── checklist.xlsx      → checklist pronto <br>
+└── comprovantes/       → pasta para documentos <br>
 
 ---
 
@@ -99,7 +99,7 @@ ruff check .
 
 ---
 
-🔄 Integração Contínua (CI)
+## 🔄 Integração Contínua (CI)
 
 Assim que for preenchendo os requisitos, escreva:
 
