@@ -50,7 +50,8 @@ A aplicação permite:
 git clone https://github.com/pxmarco/Presales_Helper.git
 cd Presales_Helper
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate  #Linux
+.venv\Scripts\activate     #Windows
 pip install -r requirements.txt
 ```
 
