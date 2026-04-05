@@ -27,8 +27,7 @@ def montar_estrutura(requisitos):
             "pagina": "",
             "documento": "",
             "link": "",
-            "termos": "",
-            "status": ""
+            "termos": ""
         }
         estrutura.append(item)
 
@@ -56,8 +55,7 @@ def gerar_excel(caminho, estrutura):
         "Página",
         "Documento",
         "Link",
-        "Termos de Busca",
-        "Status"
+        "Termos de Busca"
     ])
 
     # Dados
@@ -67,8 +65,7 @@ def gerar_excel(caminho, estrutura):
             item["pagina"],
             item["documento"],
             item["link"],
-            item["termos"],
-            item["status"]
+            item["termos"]
         ])
 
     arquivo = f"{caminho}/checklist.xlsx"
