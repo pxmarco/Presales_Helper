@@ -47,6 +47,7 @@ A aplicação permite:
 ## 📦 Instalação
 
 ```bash
+winget install --id Git.Git -e --source winget  #Se não tiver o git instalado no seu windows
 git clone https://github.com/pxmarco/Presales_Helper.git
 cd Presales_Helper
 python3 -m venv .venv
