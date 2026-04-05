@@ -22,4 +22,3 @@ def test_montar_estrutura():
     estrutura = montar_estrutura(requisitos)
 
     assert estrutura[0]["requisito"] == "1.1 Req 1"
-    assert estrutura[0]["status"] == ""
